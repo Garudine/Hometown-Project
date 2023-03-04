@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #fefffe;
+}
+
+section {
+  padding: 3% 10%;
+}
+
+section:first-child {
+  background-color: #fefae0;
+}
+
+/********* HERO BANNER ************/
+
+#hero {
+  height: 50vh;
+  width: 100%;
+  background-image: url("Imagenes/portada.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid #283618;
+}
+
+#primer-banner {
+  width: 300px;
+  background-color: #283618;
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#segundo-banner {
+  width: 450px;
+  background-color: #606c38;
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 130%;
+  text-align: center;
+}
+
+/***** PRIMERA SECCIÓN ******/
+
+#imagenes {
+  display: flex;
+  justify-content: center;
+}
+
+.rows {
+  margin: 20px;
+}
+
+#titulo {
+  font-family: "Roboto";
+  font-size: 200%;
+  color: #bc6c25;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#imagenes h3 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #283618;
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+#imagenes p {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #606c38;
+  max-width: 200px;
+}
+
+.imagen {
+  width: 150px;
+  height: 150px;
+  background-color: #283618;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#izquierda {
+  background-image: url("Imagenes/izquierda.jpg");
+}
+
+#derecha {
+  background-image: url("Imagenes/derecha.jpg");
+}
+
+#centro {
+  background-image: url("Imagenes/centro.jpg");
+}
+
+/*******SECCIÓN 2 *************/
+
+#cuadrado-guia {
+  width: 500px;
+  height: 300px;
+  background: #283618;
+  box-shadow: -10px 10px 0px #606c38;
+  color: #fefae0;
+  font-family: "Roboto";
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#cuadrado-imagen {
+  background-image: url("Imagenes/perfil.jpg");
+  background-size: cover;
+  width: 30%;
+  height: 90%;
+  border: 5px solid #fefae0;
+  margin: 10px;
+}
+
+#cuadrado-texto {
+  font-family: "Roboto";
+  text-align: center;
+  color: #fefae0;
+  width: 50%;
+}
+
+#cuadrado-texto h2 {
+  font-weight: 700;
+  margin: 30px;
+}
+
+#cuadrado-texto p {
+  font-size: 20px;
+  font-style: italic;
+}
